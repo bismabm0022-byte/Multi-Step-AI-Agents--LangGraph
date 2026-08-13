@@ -1,0 +1,17 @@
+# Core Agent & Graph Framework
+langgraph>=0.2.0,<0.3.0
+langchain>=0.2.0,<0.3.0
+langchain-core>=0.2.0,<0.3.0
+langchain-community>=0.2.0,<0.3.0
+
+# LLM Providers & Tools
+langchain-openai>=0.1.7,<0.2.0
+tavily-python>=0.3.0
+
+# Environment & Utilities
+python-dotenv>=1.0.0
+pydantic>=2.7.0,<3.0.0
+typing-extensions>=4.10.0
+
+# Graph Visualization (Optional - for ascii/png rendering)
+grandalf>=0.8
