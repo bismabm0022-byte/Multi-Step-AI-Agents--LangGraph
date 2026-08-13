@@ -2,7 +2,7 @@
 
 This repository expands our AI Agent architecture from single function-calling into a **multi-step, state-driven workflow using LangGraph**.
 
-## 🚀 Key Upgrades in this Release
+## Key Upgrades in this Release
 
 1. **Explicit State Management (`AgentState`)**:
    - Uses `Annotated[list[BaseMessage], add_messages]` to handle conversation history seamlessly.
